@@ -78,7 +78,7 @@ ship "Battlecruiser"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The spiritual successor to the Battlecruiser; the Battlecruiser features the Navy's most advanced technology and weaponry.  No expense has been spared in the construction of this monster, and the results speak for themselves.  The Battlecruiser is also the first ship to feature the Navy's Exotic Particle technology."
+	description "The Navy Battlecruiser is the newest capital ship in the Navy's lineup. The ship trades off the ability to carry drones and fighters for more room to fit outfits and take more of a hit with more shields and hull, making it able to go toe-to-toe with the strongest Hai ships."
 
 ship "Battlecruiser" "Battlecruiser (Jump)"
 	outfits
@@ -165,7 +165,7 @@ ship "Assault Cruiser"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The first new design to be produced by the Republic Navy in years, the Assault Cruiser is the Navy's response to the use of nuclear weaponary during the war. In lieu of drone or fighter carrying capabilities, the Assault Cruiser carries with it a large number of missile launchers, allowing it to keep its distance from nuclear-missile-wielding ships."
+	description "In response to the power of Hai Tracker Pods, the Navy has produced this ship to counter the speed and range of the Tracker by being able to quickly move away from the heat of battle and support allies from afar with more missile launchers than any ship seen before."
 
 ship "Assault Cruiser" "Assault Cruiser (Mark II)"
 	sprite "ship/assault cruiser 1"
@@ -256,7 +256,7 @@ ship "Praying Mantis"
 	explode "big explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion medium"
-	description "Unfettered medium warship. Can carry 2 fighters. Fitted with Large Radar Jammers that the Alphas provided as countermeasures for the Wanderer's infrared and radar tracking Thunderhead missiles in lue of using anti missile turrets."
+	description "This ship was developed by the Unfettered to fill the role of a medium warship in Unfettered fleets. Quicker to produce than Shield Beetles or Solifuges, the Praying Mantis is still able to pack a punch."
 
 ship "Weevil"
 	sprite "ship/hai weevil"
@@ -306,7 +306,7 @@ ship "Weevil"
 	explode "medium explosion" 24
 	explode "big explosion" 10
 	"final explode" "final explosion small"
-	description "Hai light warship. Carries 4 drones. Only two gun hardpoints, relying mainly on its drones for fire power."
+	description "The Weevil is a small drone carrier able to tote four drones into battle. Most Weevils are seen with Ion Cannons, use to support the drones from a distance and weaken the enemy."
 
 ship "Rhino Beetle"
 	sprite "ship/hai rhino beetle"
@@ -334,7 +334,7 @@ ship "Rhino Beetle"
 		"Ion Cannon" 2
 		"Hai Tracker Pod" 2
 		"Hai Tracker" 112
-		"Chameleon Anti-Missile" 1
+		"Chameleon Anti-Missile"
 		"Pulse Turret" 2
 
 		"Boulder Reactor"
@@ -357,21 +357,24 @@ ship "Rhino Beetle"
 	turret -63.5 26.5
 	turret 0 74 "Chameleon Anti-Missile"
 	turret 63.5 26.5
-	drone -60 -10 over
-	drone 60 -10 over
-	drone -90 39 over
-	drone 90 39 over
-	drone -60 -10 under
-	drone 60 -10 under
-	drone -90 39 under
-	drone 90 39 under
-	drone -64 27 under
-	drone 64 27 under
+	drone -63.5 26.5
+	drone -63.5 26.5
+	drone -63.5 26.5
+	drone -63.5 26.5
+	drone -63.5 26.5
+	drone -63.5 26.5
+	drone -63.5 26.5
+	drone 63.5 26.5
+	drone 63.5 26.5
+	drone 63.5 26.5
+	drone 63.5 26.5
+	drone 63.5 26.5
+	drone 63.5 26.5
+	drone 63.5 26.5
 	explode "tiny explosion" 40
 	explode "small explosion" 40
 	explode "medium explosion" 40
 	explode "big explosion" 40
 	explode "huge explosion" 15
 	"final explode" "final explosion large"
-	description "Hai heavy warship. Carries 10 drones. The bigger version of the Medium Droneship."
-	
+	description "The Rhino Beetle is the only Hai drone carrier that uses internal bays to store and deploy its many drones. Although not as heavty as the Shield Beetle, the Rhino Beetle is still able to take a hit and keep on going."
