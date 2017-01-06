@@ -8,6 +8,13 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+shipyard human
+	Battlecruiser
+	"Assault Cruiser"
+	Weevil
+	"Rhino Beetle"
+	"Praying Mantis"
+
 ship "Battlecruiser"
 	sprite "ship/battlecruiser"
 	licenses
@@ -50,23 +57,21 @@ ship "Battlecruiser"
 		"A865 Atomic Steering"
 		"Hyperdrive"
 
-	gun -18.5 -158 "Exotic Particle Cannon"
-	gun -14 -163 "Exotic Particle Cannon"
-	gun 14 -163 "Exotic Particle Cannon"
-	gun 18 -158 "Exotic Particle Cannon"
-	gun -45 -74
-	gun -38.5 -74 "Typhoon Launcher"
-	gun 38.5 -74 "Typhoon Launcher"
-	gun 45 -74
-	turret 0.5 -63
-	turret -0.5 0.5
-	turret -44 -38 "Electron Turret"
-	turret 44 -38 "Electron Turret"
-	fighter -44 -38 
-	fighter 44 -38 
-	engine -34 159
-	engine 0.5 173.5
-	engine 35 159
+	engine 39 178
+	engine -39 178
+	engine 0 194.5
+	gun -49.5 -79.5
+	gun 49.5 -79.5
+	gun -43.5 -79.5
+	gun 43.5 -79.5
+	gun -16 -175
+	gun 16 -175
+	gun -9.5 -196.5 "Typhoon Launcher"
+	gun 9.5 -196.5 "Typhoon Launcher"
+	turret -51.5 -42.5 "Heavy Anti-Missile Turret"
+	turret 51.5 -42.5 "Heavy Anti-Missile Turret"
+	turret -10.5 -67.5
+	turret 10.5 -67.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
