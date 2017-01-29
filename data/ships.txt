@@ -22,82 +22,89 @@ ship "Battlecruiser"
 		Cruiser
 	attributes
 		category "Heavy Warship"
-		"cost" 21200000
-		"shields" 23800
-		"hull" 7800
-		"required crew" 124
+		"cost" 18600000
+		"shields" 28500
+		"hull" 9600
+		"required crew" 131
 		"bunks" 186
-		"mass" 740
-		"drag" 11.2
-		"heat dissipation" .55
+		"mass" 980
+		"drag" 18.2
+		"heat dissipation" .4
 		"fuel capacity" 600
-		"cargo space" 60
-		"outfit space" 890
-		"weapon capacity" 380
-		"engine capacity" 180
+		"cargo space" 80
+		"outfit space" 850
+		"weapon capacity" 410
+		"engine capacity" 130
 		weapon
-			"blast radius" 316
-			"shield damage" 3160
-			"hull damage" 1580
-			"hit force" 4740
+			"blast radius" 400
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 6000
 	outfits
-		"Exotic Particle Cannon" 4
+		"Gauss Cannon" 4
 		"Typhoon Launcher" 2
 		"Typhoon Torpedo" 60
 		"Electron Turret" 2
 		"Heavy Anti-Missile Turret" 2
 
 		"Armageddon Core"
-		"LP144a Battery Pack"
+		"LP288a Battery Pack"
 		"D94-YV Shield Generator"
 		"Liquid Helium Cooler"
-		"Liquid Nitrogen Cooler"
 
-		"A520 Atomic Thruster"
-		"A865 Atomic Steering"
+		"A370 Atomic Thruster"
+		"A525 Atomic Steering"
 		"Hyperdrive"
 
-	engine 39 178
-	engine -39 178
-	engine 0 194.5
-	gun -49.5 -79.5
-	gun 49.5 -79.5
-	gun -43.5 -79.5
-	gun 43.5 -79.5
+	engine 39 178 0.8
+	engine 0 194.5 1.1
+	engine -39 178 0.8
+	gun -49.5 -79.5 "Gauss Cannon"
+	gun 49.5 -79.5 "Gauss Cannon"
+	gun -43.5 -79.5 "Gauss Cannon"
+	gun 43.5 -79.5 "Gauss Cannon"
 	gun -16 -175
 	gun 16 -175
-	gun -9.5 -196.5 "Typhoon Launcher"
-	gun 9.5 -196.5 "Typhoon Launcher"
+	gun -9.5 -196.5
+	gun 9.5 -196.5
 	turret -51.5 -42.5 "Heavy Anti-Missile Turret"
 	turret 51.5 -42.5 "Heavy Anti-Missile Turret"
 	turret -10.5 -67.5
 	turret 10.5 -67.5
-	explode "tiny explosion" 20
-	explode "small explosion" 45
+	explode "tiny explosion" 50
+	explode "small explosion" 50
 	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 10
+	explode "large explosion" 50
+	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "The Navy Battlecruiser is the newest capital ship in the Navy's lineup. The ship trades off the ability to carry drones and fighters for more room to fit outfits and take more of a hit with more shields and hull, making it able to go toe-to-toe with the strongest Hai ships."
 
-ship "Battlecruiser" "Battlecruiser (Jump)"
+ship "Battlecruiser" "Battlecruiser (Mark II)"
 	outfits
-		"Exotic Particle Cannon" 4
+		"Gauss Cannon" 4
 		"Typhoon Launcher" 2
 		"Typhoon Torpedo" 60
 		"Electron Turret" 2
 		"Heavy Anti-Missile Turret" 2
-
 		"Armageddon Core"
-		"LP144a Battery Pack"
+		"LP288a Battery Pack"
 		"D94-YV Shield Generator"
 		"Liquid Helium Cooler"
-		"Liquid Nitrogen Cooler"
-
-		"A520 Atomic Thruster"
-		"A865 Atomic Steering"
+		"A370 Atomic Thruster"
+		"A525 Atomic Steering"
 		"Hyperdrive"
-		"Jump Drive"
+	gun "Gauss Cannon"
+	gun "Gauss Cannon"
+	gun "Gauss Cannon"
+	gun "Gauss Cannon"
+	gun
+	gun
+	gun
+	gun
+	turret "Heavy Anti-Missile Turret"
+	turret "Heavy Anti-Missile Turret"
+	turret
+	turret
 
 ship "Assault Cruiser"
 	sprite "ship/assault cruiser 2"
@@ -106,33 +113,33 @@ ship "Assault Cruiser"
 		Cruiser
 	attributes
 		category "Heavy Warship"
-		"cost" 18200000
-		"shields" 22000
-		"hull" 7800
-		"required crew" 96
-		"bunks" 160
-		"mass" 730
-		"drag" 12.4
-		"heat dissipation" .45
-		"fuel capacity" 600
-		"cargo space" 100
-		"outfit space" 780
-		"weapon capacity" 305
-		"engine capacity" 180
+		"cost" 9850000
+		"shields" 16500
+		"hull" 4900
+		"required crew" 64
+		"bunks" 98
+		"mass" 580
+		"drag" 8.8
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 40
+		"outfit space" 720
+		"weapon capacity" 290
+		"engine capacity" 190
 		weapon
-			"blast radius" 280
-			"shield damage" 2800
-			"hull damage" 1400
-			"hit force" 4200
+			"blast radius" 220
+			"shield damage" 2200
+			"hull damage" 1100
+			"hit force" 3300
 	outfits
 		"Particle Cannon" 4
 		"Meteor Missile Launcher" 8
 		"Meteor Missile" 280
 		"Heavy Anti-Missile Turret" 2
-		"Anti-Missile Turret" 2
+		"Anti-Missile Turret"
 
 		"Fusion Reactor"
-		"LP288a Battery Pack"
+		"LP144a Battery Pack"
 		"D94-YV Shield Generator"
 		"Large Radar Jammer"
 		"Liquid Nitrogen Cooler"
@@ -157,13 +164,12 @@ ship "Assault Cruiser"
 	gun 37 -86.5 "Particle Cannon"
 	turret -24 14
 	turret 0 -71
-	turret 0 94
 	turret 24 14
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 10
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 12
+	explode "huge explosion" 6
 	"final explode" "final explosion large"
 	description "In response to the power of Hai Tracker Pods, the Navy has produced this ship to counter the speed and range of the Tracker by being able to quickly move away from the heat of battle and support allies from afar with more missile launchers than any ship seen before."
 
@@ -175,7 +181,7 @@ ship "Assault Cruiser" "Assault Cruiser (Mark II)"
 		"Sidewinder Missile Launcher" 10
 		"Sidewinder Missile" 500
 		"Heavy Anti-Missile Turret" 2
-		"Anti-Missile Turret" 2
+		"Anti-Missile Turret"
 		"Armageddon Core"
 		"LP144a Battery Pack"
 		"D94-YV Shield Generator"
@@ -198,7 +204,6 @@ ship "Assault Cruiser" "Assault Cruiser (Mark II)"
 	turret -24 14
 	turret 24 14
 	turret 0 -71
-	turret 0 94
 
 ship "Praying Mantis"
 	sprite "ship/hai praying mantis"
