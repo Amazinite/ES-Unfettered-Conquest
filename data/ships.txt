@@ -11,7 +11,7 @@
 shipyard human
 	Battlecruiser
 	"Assault Cruiser"
-	Weevil
+	"Weevil"
 	"Rhino Beetle"
 	"Praying Mantis"
 
@@ -26,13 +26,13 @@ ship "Battlecruiser"
 		"shields" 28500
 		"hull" 9600
 		"required crew" 131
-		"bunks" 186
+		"bunks" 221
 		"mass" 980
 		"drag" 18.2
 		"heat dissipation" .4
 		"fuel capacity" 600
-		"cargo space" 80
-		"outfit space" 850
+		"cargo space" 60
+		"outfit space" 860
 		"weapon capacity" 410
 		"engine capacity" 130
 		weapon
@@ -79,33 +79,6 @@ ship "Battlecruiser"
 	"final explode" "final explosion large"
 	description "The Navy Battlecruiser is the newest capital ship in the Navy's lineup. The ship trades off the ability to carry drones and fighters for more room to fit outfits and take more of a hit with more shields and hull, making it able to go toe-to-toe with the strongest Hai ships."
 
-ship "Battlecruiser" "Battlecruiser (Mark II)"
-	outfits
-		"Gauss Cannon" 4
-		"Typhoon Launcher" 2
-		"Typhoon Torpedo" 60
-		"Electron Turret" 2
-		"Heavy Anti-Missile Turret" 2
-		"Armageddon Core"
-		"LP288a Battery Pack"
-		"D94-YV Shield Generator"
-		"Liquid Helium Cooler"
-		"A370 Atomic Thruster"
-		"A525 Atomic Steering"
-		"Hyperdrive"
-	gun "Gauss Cannon"
-	gun "Gauss Cannon"
-	gun "Gauss Cannon"
-	gun "Gauss Cannon"
-	gun
-	gun
-	gun
-	gun
-	turret "Heavy Anti-Missile Turret"
-	turret "Heavy Anti-Missile Turret"
-	turret
-	turret
-
 ship "Assault Cruiser"
 	sprite "ship/assault cruiser 2"
 	licenses
@@ -114,18 +87,18 @@ ship "Assault Cruiser"
 	attributes
 		category "Heavy Warship"
 		"cost" 9850000
-		"shields" 16500
-		"hull" 4900
+		"shields" 14500
+		"hull" 3600
 		"required crew" 64
-		"bunks" 98
+		"bunks" 78
 		"mass" 580
-		"drag" 8.8
+		"drag" 7.4
 		"heat dissipation" .5
 		"fuel capacity" 500
-		"cargo space" 40
-		"outfit space" 720
-		"weapon capacity" 290
-		"engine capacity" 190
+		"cargo space" 80
+		"outfit space" 680
+		"weapon capacity" 250
+		"engine capacity" 200
 		weapon
 			"blast radius" 220
 			"shield damage" 2200
@@ -135,8 +108,7 @@ ship "Assault Cruiser"
 		"Particle Cannon" 4
 		"Meteor Missile Launcher" 8
 		"Meteor Missile" 280
-		"Heavy Anti-Missile Turret" 2
-		"Anti-Missile Turret"
+		"Anti-Missile Turret" 2
 
 		"Fusion Reactor"
 		"LP144a Battery Pack"
@@ -163,7 +135,6 @@ ship "Assault Cruiser"
 	gun -37 -86.5 "Particle Cannon"
 	gun 37 -86.5 "Particle Cannon"
 	turret -24 14
-	turret 0 -71
 	turret 24 14
 	explode "tiny explosion" 18
 	explode "small explosion" 36
@@ -173,38 +144,6 @@ ship "Assault Cruiser"
 	"final explode" "final explosion large"
 	description "In response to the power of Hai Tracker Pods, the Navy has produced this ship to counter the speed and range of the Tracker by being able to quickly move away from the heat of battle and support allies from afar with more missile launchers than any ship seen before."
 
-ship "Assault Cruiser" "Assault Cruiser (Mark II)"
-	sprite "ship/assault cruiser 1"
-	outfits
-		"Typhoon Launcher" 2
-		"Typhoon Torpedo" 60
-		"Sidewinder Missile Launcher" 10
-		"Sidewinder Missile" 500
-		"Heavy Anti-Missile Turret" 2
-		"Anti-Missile Turret"
-		"Armageddon Core"
-		"LP144a Battery Pack"
-		"D94-YV Shield Generator"
-		"Liquid Helium Cooler"
-		"A520 Atomic Thruster"
-		"A525 Atomic Steering"
-		"Hyperdrive"
-	gun -99 4
-	gun -87.5 4
-	gun -62.5 3
-	gun -51 3
-	gun 51 3
-	gun 62.5 3
-	gun 87.5 4
-	gun 99 4
-	gun -49 -72.5
-	gun 49 -72.5
-	gun -38 -72.5 "Typhoon Launcher"
-	gun 38 -72.5 "Typhoon Launcher"
-	turret -24 14
-	turret 24 14
-	turret 0 -71
-
 ship "Praying Mantis"
 	sprite "ship/hai praying mantis"
 	attributes
@@ -212,10 +151,10 @@ ship "Praying Mantis"
 		"cost" 10250000
 		"shields" 12600
 		"hull" 4200
-		"required crew" 17
-		"bunks" 34
+		"required crew" 23
+		"bunks" 41
 		"mass" 325
-		"drag" 4.7
+		"drag" 6.5
 		"heat dissipation" .7
 		"fuel capacity" 400
 		"cargo space" 87
@@ -269,7 +208,7 @@ ship "Weevil"
 		category "Light Warship"
 		"cost" 4750000
 		"shields" 7800
-		"hull" 210
+		"hull" 2100
 		"required crew" 6
 		"bunks" 18
 		"mass" 270
@@ -323,7 +262,7 @@ ship "Rhino Beetle"
 		"required crew" 34
 		"bunks" 67
 		"mass" 478
-		"drag" 7.4
+		"drag" 9.8
 		"heat dissipation" .6
 		"fuel capacity" 500
 		"cargo space" 117
@@ -349,15 +288,15 @@ ship "Rhino Beetle"
 		"Hai Corundum Regenerator" 2
 		"Hai Williwaw Cooling" 3
 
-		`"Bufaer" Atomic Thruster`
-		`"Biroo" Atomic Steering`
+		`"Bondir" Atomic Thruster`
+		`"Bondir" Atomic Steering`
 		"Hyperdrive"
 
 	engine -63 93
 	engine 63 93
 	gun -30 48.5
 	gun -19 -78 "Hai Tracker Pod"
-	gun 19 78 "Hai Tracker Pod"
+	gun 19 -78 "Hai Tracker Pod"
 	gun 30 48.5
 	turret -63.5 26.5
 	turret 0 74 "Chameleon Anti-Missile"
