@@ -17,11 +17,11 @@ shipyard human
 
 ship "Battlecruiser"
 	sprite "ship/battlecruiser"
-	licenses
-		Navy
-		Cruiser
 	attributes
 		category "Heavy Warship"
+		licenses
+			Navy
+			Cruiser
 		"cost" 18600000
 		"shields" 28500
 		"hull" 9600
@@ -81,11 +81,11 @@ ship "Battlecruiser"
 
 ship "Assault Cruiser"
 	sprite "ship/assault cruiser 2"
-	licenses
-		Navy
-		Cruiser
 	attributes
 		category "Heavy Warship"
+		licenses
+			Navy
+			Cruiser
 		"cost" 9850000
 		"shields" 14500
 		"hull" 3600
